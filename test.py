@@ -4,3 +4,4 @@ user = iam.User('min0.son')
 groups = user.groups
 for group in groups.all()
     print(group.name)
+    print(user.user_name)
